@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body  class = 'back'> 
     <div class="main-content">
         {{>header}}
 
-        <p>Use this site to get your weather!</p>
+        <p style="color: black ;font-size:30px">Please provide the name of the city or country 
+             to get your weather information</p>
 
         <form>
             <input placeholder="Location">
             <button>Search</button>
         </form>
 
-        <p id="message-1"></p>
-        <p id="message-2"></p>
+        <p id="message-1" style="color: black ;font-size:30px"></p>
+        <p id="message-2" style="color:black;font-size:30px"></p>
     </div>
 
     {{>footer}}
